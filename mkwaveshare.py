@@ -7,7 +7,7 @@ for col in range(2):
         else:
             pin = 16 - row
             x = 2.7
-        if row % 2 == 1:
+        if row % 2 == 0:
             x += 1.27
         y = -7 * 1.27 / 2 + 1.27 * row
         print("  (pad %d thru_hole circle (at %g %g) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask F.SilkS))" % (pin, x, y))
