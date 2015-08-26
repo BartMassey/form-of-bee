@@ -1,4 +1,4 @@
-update=Tue 25 Aug 2015 12:02:03 PM PDT
+update=Wed 26 Aug 2015 12:30:25 PM PDT
 version=1
 last_client=kicad
 [general]
@@ -40,16 +40,6 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=soic16-zif
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -70,3 +60,13 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

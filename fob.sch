@@ -29,15 +29,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:soic16-zif
-LIBS:fob-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Form Of Bee"
-Date "Fri 21 Aug 2015"
-Rev "1.0"
+Date "Wed 26 Aug 2015"
+Rev "1.1"
 Comp "Bart Massey"
 Comment1 "Open HW: see repo for license terms"
 Comment2 "http://github.com/BartMassey/form-of-bee"
@@ -49,7 +48,7 @@ L R R2
 U 1 1 557603AA
 P 6400 3500
 F 0 "R2" V 6480 3500 40  0000 C CNN
-F 1 "51" V 6407 3501 40  0000 C CNN
+F 1 "100" V 6407 3501 40  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 6330 3500 30  0001 C CNN
 F 3 "~" H 6400 3500 30  0000 C CNN
 	1    6400 3500
@@ -175,7 +174,7 @@ Wire Wire Line
 	4450 3600 4950 3600
 Connection ~ 4700 3600
 Wire Wire Line
-	3950 3500 3750 3500
+	3450 3500 3950 3500
 Wire Wire Line
 	3750 3500 3750 3850
 Wire Wire Line
@@ -200,4 +199,27 @@ Wire Wire Line
 	6250 3850 6250 4150
 Wire Wire Line
 	6250 4150 6400 4150
+$Comp
+L VDD #PWR07
+U 1 1 55DE0DF6
+P 3450 3200
+F 0 "#PWR07" H 3450 3050 50  0001 C CNN
+F 1 "VDD" H 3450 3350 50  0000 C CNN
+F 2 "" H 3450 3200 60  0000 C CNN
+F 3 "" H 3450 3200 60  0000 C CNN
+	1    3450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 55DE0E0F
+P 3450 3350
+F 0 "R1" V 3530 3350 50  0000 C CNN
+F 1 "10K" V 3450 3350 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 3380 3350 30  0001 C CNN
+F 3 "" H 3450 3350 30  0000 C CNN
+	1    3450 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3750 3500
 $EndSCHEMATC
